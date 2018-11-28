@@ -1,0 +1,134 @@
+
+  html {
+  font-family: "trebuchet";
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+ }
+
+  body {
+  margin: 0
+  }
+
+  body {
+  font-family: "trebuchet";
+  font-size: 14px;
+  color: #333;
+  background-color: #fff
+  }
+
+  a {
+   width: 100%;
+  height: 75px;
+  background: #A4A4A4;
+  }
+
+  .a li {
+
+
+}
+
+.a li:hover {
+  background: #ffab62;
+}
+
+}
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "trebuchet";
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit
+  }
+
+  .h3, h3 {
+  font-size: 24px
+  }
+
+  .text-center {
+  text-align: center
+  }
+  .titulo {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-image: url(home/mon.jfif);
+  }
+
+  border-top-color: #d5d5d5
+
+  .titulo {
+    padding-top: 48px;
+    padding-bottom: 48px
+  }
+
+  .titulo .h1, .titulo h1 {
+    font-size: 63px
+  }
+
+  .holder {
+    display: flex;
+    justify-content: center;
+  }
+  .imagem {
+  width: 200px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  }
+  .imagem::after {
+  content: attr(data-title);
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0;
+  }
+
+
+		.box {
+			width: 240px;
+			height: center;
+			display: inline-block;
+		}
+
+		div#a-b-c-d {
+			width: 1050px;
+			height: auto;
+			margin: auto;
+		}
+
+		div#a-b-c-d h2 {
+		text-align: center;
+		display: inline-block;
+
+		}
+
+		div#a-b-c-d p {
+		text-align: center;
+		display: inline-block;
+
+		}
+		div#a-b-c-d p {
+		text-align: center;
+		display:inline-block;
+
+		}
+
+   		.left {
+			margin-right: 22px;
+			}
+
+
+   .container img {
+    max-width:720px;
+    max-height:460px;
+   	display: inline-block;
+   }
+  footer{
+    position:fixed;
+  background-color:#ffab62;
+  line-height:30px;
+  height:106px;
+  width:100%;
+  left:0;
+  bottom:0;
+  }
