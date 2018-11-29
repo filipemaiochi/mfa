@@ -4,8 +4,8 @@ setlocale(LC_CTYPE,"pt_BR");
 function sendMail($para,$de,$mensagem,$assunto){
 //DADOS SMTP
 $smtp    = "smtp.gmail.com"; //      < ---- Alterar o smtp
-$usuario = "lipemaiochi@gmail.com"; //      < ---- Alterar o email
-$senha   = "Adonaiyeshua"; //      < ---- Alterar a senha
+$usuario = "gustavomenus@gmail.com"; //      < ---- Alterar o email
+$senha   = "Manuh1810"; //      < ---- Alterar a senha
 // NAO ALTERAR
 require_once 'smtp/smtp.php';
 $mail = new smtp;
