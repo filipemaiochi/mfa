@@ -20,13 +20,13 @@ $mail->Html($mensagem);
 
     //echo "MENSAGEM ENVIADA COM SUCESSO";
     $_SESSION['feedback'] = "MENSAGEM ENVIADA COM SUCESSO";
-    header ("Location: Email.html");
+    header ("Location: index.html");
     //return true;
   }else {
 
     //echo "MENSAGEM FALHOU AO SER ENVIADA, TENTE MAIS TARDE";
     $_SESSION['feedback'] = "MENSAGEM FALHOU AO SER ENVIADA, TENTE MAIS TARDE";
-    header ("Location: Email.html");
+    header ("Location: index.html");
     //return false;
   }
 }
