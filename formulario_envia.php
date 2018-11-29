@@ -10,7 +10,7 @@ $senha   = "Manuh1810"; //      < ---- Alterar a senha
 require_once 'smtp/smtp.php';
 $mail = new smtp;
 $mail->Delivery('relay');
-$mail->Relay($smtp, $usuario, $senha, 465, 'login', true);
+$mail->Relay($smtp, $usuario, $senha, 587, 'login', true);
 $mail->TimeOut(10);
 $mail->Priority('high');
 $mail->From($de);
